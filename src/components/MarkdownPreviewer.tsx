@@ -1,8 +1,17 @@
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
-const MarkdownPreviewer = () => {
+interface MarkdownPreviewerProps {
+    markdownText: string
+}
+
+const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({ markdownText }: MarkdownPreviewerProps) => {
 
     return (
-        <div>MarkdownPreviewer</div>
+
+        <section id="preview" >
+            <ReactMarkdown children={markdownText} remarkPlugins={[remarkGfm]}  />
+        </section>
     )
 }
 
