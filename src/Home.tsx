@@ -13,9 +13,9 @@ function Home() {
 
     <Fragment>
       <Navbar />
-      <main className="pt-20 h-auto">
+      <main className="pt-20 sm:pt-36 ">
         <Container>
-          <section className="w-full grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 h-[70%] py-8" >
+          <section className="w-full grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 py-8" >
             <MarkdowEditor value={markdownText} setMarkdownText={setMarkdownText} />
             <MarkdownPreviewer markdownText={markdownText} />
           </section>
