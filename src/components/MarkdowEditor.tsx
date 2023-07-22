@@ -22,7 +22,7 @@ const MarkdowEditor: React.FC<MarkdownPreviewerProps> = ({ setMarkdownText, valu
                 onChange={handleChange}
                 name="markdown editor"
                 id="editor"
-                className=" p-4 rounded-lg overflow-auto w-[100%] h-[70vh]"
+                className=" p-4 overflow-auto w-[100%] h-[70vh] border rounded-lg md:border-white"
             ></textarea>
         </section>
     )
