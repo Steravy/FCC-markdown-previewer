@@ -1,10 +1,10 @@
 # Markdown Previewer
 
 <div align="center">
-  <img src="https://github.com/Steravy/FCC-markdown-previewer.git/blob/main/public/dsk.png" alt="Markdown Previewer Desktop" width="800px" height='auto' />
+  <img src="https://github.com/Steravy/FCC-markdown-previewer/blob/main/public/dsk.png" alt="Markdown Previewer Desktop" width="800px" height='auto' />
 </div>
 <div align="center">
-  <img src="https://github.com/Steravy/FCC-markdown-previewer.git/blob/main/public/mobile.png" alt="Markdown Previewer Mobile" width="800px" height='auto' />
+  <img src="https://github.com/Steravy/FCC-markdown-previewer/blob/main/public/mobile.png" alt="Markdown Previewer Mobile" width="800px" height='auto' />
 </div>
 
 This is a web application built with React as part of the freeCodeCamp projects series to earn the Front End Development Libraries Certification. Note that the aim of this build is not to deliver a great app experience but to get the test pass on FCC.
