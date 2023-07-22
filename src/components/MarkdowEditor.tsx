@@ -16,13 +16,13 @@ const MarkdowEditor: React.FC<MarkdownPreviewerProps> = ({ setMarkdownText, valu
 
     return (
 
-        <section className=''>
+        <section className='w-full col-span-1'>
             <textarea
                 value={value}
                 onChange={handleChange}
                 name="markdown editor"
                 id="editor"
-                className="p-4 rounded-lg overflow-auto w-[100%] h-[70%]"
+                className=" p-4 rounded-lg overflow-auto w-[100%] h-[70vh]"
             ></textarea>
         </section>
     )

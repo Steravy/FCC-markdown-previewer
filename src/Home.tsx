@@ -15,7 +15,7 @@ function Home() {
       <Navbar />
       <main className="pt-20 h-auto">
         <Container>
-          <section className="w-full flex flex-col md:flex-row justify-between items-center gap-8 h-[70%]" >
+          <section className="w-full grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 h-[70%] py-8" >
             <MarkdowEditor value={markdownText} setMarkdownText={setMarkdownText} />
             <MarkdownPreviewer markdownText={markdownText} />
           </section>

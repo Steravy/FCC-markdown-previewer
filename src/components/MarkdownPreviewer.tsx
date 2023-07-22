@@ -9,7 +9,7 @@ const MarkdownPreviewer: React.FC<MarkdownPreviewerProps> = ({ markdownText }: M
 
     return (
 
-        <section id="preview" >
+        <section id="preview" className="w-full col-span-1" >
             <ReactMarkdown children={markdownText} remarkPlugins={[remarkGfm]}  />
         </section>
     )
